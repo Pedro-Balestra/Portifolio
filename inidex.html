@@ -12,18 +12,18 @@
 </head>
 
 <body>
-    <div class="navigatorBar">
+    <div class="navigatorBar" id="home">
         <nav>
             <h2 class="portfolio">Portfo<span>lio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Contato</a></li>
+                <li><a class="linkMenu" href="#home">Home</a></li>
+                <li><a class="linkMenu" href="#sobre">Sobre</a></li>
+                <li><a class="linkMenu" href="#projetos-id">Projetos</a></li>
+                <li><a class="linkMenu" href="#fale-comigo">Contato</a></li>
             </ul>
         </nav>
 
-        <div class="myName">
+        <div class="myName" id="sobre">
             <h1>Pedro <span>Balestra</span></h1>
             <h3>Desenvolvendor Front-End</h3>
         </div>
@@ -38,14 +38,49 @@
             </p>
             <p>Graduando o décimo periodo em Engenharia da Computação no Instituto Nacional de Telecomunicação - Inatel
             </p>
-            <button>Entre em contato</button>
+            <a href="#fale-comigo"><button>Entre em contato</button></a>
         </div>
     </section>
 
-    <div>
+    <div class="projetos" id="projetos-id">
         <h2>Principais Projetos</h2>
-        <div></div>
+
+        <div class="gradeProjetos">
+
+            <div class="card">
+                <img src="./images/netflix.png">
+                <h5>Netflix</h5>
+                <p>Descrição do Projeto</p>
+                <a href="https://github.com/Pedro-Balestra/Portifolio" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="card">
+                <img src="./images/starbucks.png">
+                <h5>StarBuck</h5>
+                <p>Descrição do Projeto</p>
+                <a href="https://github.com/Pedro-Balestra/Portifolio" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="card">
+                <img src="./images/crono.png">
+                <h5>Cronometro</h5>
+                <p>Descrição do Projeto</p>
+                <a href="https://github.com/Pedro-Balestra/Portifolio" target="_blank">Ver Projeto</a>
+            </div>
+
+        </div>
+
+
+
     </div>
+
+    <footer id="fale-comigo">
+        <h5>Pedro <span>Balestra</span></h5>
+        <p>Para mais informações</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/pedro-balestra/" target="_blank"><img src="./images/linkedin.png"></a>
+            <a href="https://wa.me/5535998956770" target="_blank"><img src="./images/whatsapp.png"></a>
+            <a href="mailto:pedro.balestra@outlook.com" target="_blank"><img src="./images/mail.png"></a>
+        </div>
+    </footer>
 
 </body>
 
